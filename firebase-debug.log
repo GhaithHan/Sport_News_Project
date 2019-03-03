@@ -1,0 +1,47 @@
+[debug] [2019-03-03T23:24:36.077Z] ----------------------------------------------------------------------
+[debug] [2019-03-03T23:24:36.081Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2019-03-03T23:24:36.081Z] CLI Version:   6.4.0
+[debug] [2019-03-03T23:24:36.081Z] Platform:      linux
+[debug] [2019-03-03T23:24:36.081Z] Node Version:  v10.15.1
+[debug] [2019-03-03T23:24:36.082Z] Time:          Mon Mar 04 2019 00:24:36 GMT+0100 (GMT+01:00)
+[debug] [2019-03-03T23:24:36.082Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-03T23:24:36.090Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-03T23:24:36.091Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/ghayth/code/React/Full_Stack_React/sport_news_app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-03-03T23:24:39.575Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2019-03-03T23:24:40.099Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-03-03T23:25:25.623Z] Error: EACCES: permission denied, open '/home/ghayth/code/React/Full_Stack_React/sport_news_app/build/404.html'
+    at Object.openSync (fs.js:439:3)
+    at Object.writeFileSync (fs.js:1190:35)
+    at Object.createFileSync (/usr/lib/node_modules/firebase-tools/node_modules/fs-extra/lib/ensure/file.js:34:6)
+    at Config.writeProjectFile (/usr/lib/node_modules/firebase-tools/lib/config.js:160:8)
+    at /usr/lib/node_modules/firebase-tools/lib/config.js:179:18
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
